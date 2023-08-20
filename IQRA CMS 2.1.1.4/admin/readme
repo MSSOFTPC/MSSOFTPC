@@ -1,0 +1,85 @@
+#Admin Files Structure 
+
+#Admin
+    #assets
+        #css
+        #img (All Images will upload here)
+        #js
+        #vendor
+    #functions (All Seprate Functions will Create here eg: api, filevalidation, datainsert)
+    #includes (Admin Panel Themes Files);
+    #mail (Mail Send Data)
+    #modules (Seprate Modules)
+    #pages (Extra Pages)
+    #.htaccess (Secure Access)
+    #404.php
+    #function.php
+    #include.php
+    #index.php
+    #login.php
+    #logout.php
+    #router.php
+    #users.php
+    #view.php
+
+Frontend Files Structure
+
+#root
+    #assets
+        #css
+        #fonts
+        #images
+        #js
+    #view
+        #modules
+        #pages
+        #templates
+        head_footer.php
+        #head.php
+    #.htaccess
+    #function.php
+    #include.php
+    #router.php
+
+
+
+    
+
+    All Action Places
+    add_action('post_update_action'); post when update it will execute
+    add_action('post_insert_action'); post when insert it will execute
+    add_action('post_delete_action'); post when insert it will execute
+
+####views part only
+
+#call function when update or insert data
+
+    function xyz(){
+        function functionname(){
+            include('xyz file');
+        }
+
+        post_type_function_exec('post_type','functionname');
+    }
+    add_action('post_update_action','xyz');
+
+    or
+
+    function check(){
+    IQ_notice('error_notice','Checked ok');
+}
+
+add_action('post_insert_action','check');
+
+
+after post <meta>
+add_action('best_post_meta_insert_action');
+add_action('best_post_meta_update_action');
+global parametor 
+global $result; for fetch meta values
+
+cdn
+
+for icons = https://remixicon.com/
+
+

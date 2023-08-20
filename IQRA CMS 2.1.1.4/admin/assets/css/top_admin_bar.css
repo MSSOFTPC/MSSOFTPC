@@ -1,0 +1,389 @@
+/* top admin bar */
+/* mobile display none */
+@media only screen and (max-width: 900px) {
+   #IQ_top_admin_bar {
+    display: none;
+   }
+ }
+
+
+/* IQ_top_admin_logo */
+#IQ_top_admin_bar ul#IQ-admin-bar-root-default>li .ab-item .ab-icon img{
+        width: 20px;
+}
+
+#IQ_top_admin_bar img{
+   width: 20px !important;
+}
+
+/* front admin theme top bar */
+.TQtopadminBar{
+    margin-top: 35px;
+}
+
+
+#IQ_top_admin_bar{
+    direction: ltr;
+    color: #c3c4c7;
+    font-size:13px;
+    font-weight:400;
+    font-family:-apple-system,BlinkMacSystemFont,SegoeUI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,HelveticaNeue,sans-serif;
+    line-height: 2.46153846;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 600px;
+    z-index: 99999;
+    background: #1f2937;
+}
+
+#IQ_top_admin_bar div{
+    box-shadow: none;
+}
+
+#IQ_top_admin_bar *{
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    position: static;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-style: normal;
+    line-height: 2.46153846;
+    border-radius: 0;
+    box-sizing: content-box;
+    transition: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+#IQ_top_admin_bar .quicklinks ul{
+    text-align: left;
+}
+
+ #IQ_top_admin_bar .ab-sub-wrapper, #IQ_top_admin_bar ul, #IQ_top_admin_bar ul li{
+    background: 0 0;
+    clear: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-indent: 0;
+    z-index: 99999;
+ }
+
+ #IQ_top_admin_bar ul#IQ-admin-bar-root-default>li{
+    margin-right: 0;
+ }
+
+ #IQ_top_admin_bar .ab-sub-wrapper, #IQ_top_admin_bar ul, #IQ_top_admin_bar ul li{
+    background: 0 0;
+    clear: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-indent: 0;
+    z-index: 99999;
+ }
+
+ li#IQ-admin-bar-menu-toggle{
+    display: none;
+ }
+
+ #IQ_top_admin_bar li{
+    float: left;
+ }
+
+ #IQ_top_admin_bar #IQ-admin-bar-wp-logo>.ab-item{
+    padding:  0 7px;
+ }
+
+ #IQ_top_admin_bar .ab-top-menu>li.hover>.ab-item, #IQ_top_admin_bar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #IQ_top_admin_bar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #IQ_top_admin_bar:not(.mobile) .ab-top-menu>li>.ab-item:focus{
+    background-color: #2c3338;
+    color: #72aee6;
+ }
+
+ #IQ_top_admin_bar .quicklinks .ab-empty-item, #IQ_top_admin_bar .quicklinks a, #IQ_top_admin_bar .shortlink-input{
+    height: 32px;
+    display: block;
+    padding: 0 10px;
+    margin: 0;
+ }
+
+ #IQ_top_admin_bar .ab-empty-item, #IQ_top_admin_bar a.ab-item, #IQ_top_admin_bar>#wp-toolbar span.ab-label, #IQ_top_admin_bar>#wp-toolbar span.noticon{
+    color: #f0f0f1;
+ }
+
+ #IQ_top_admin_bar #wp-toolbar span.ab-label{
+    color: #f0f0f1;
+ }
+
+ #IQ_top_admin_bar #wp-toolbar span.ab-label i{
+   font-size: 17px;
+}
+
+ #IQ_top_admin_bar a, #IQ_top_admin_bar a img, #IQ_top_admin_bar a img:hover, #IQ_top_admin_bar a:hover{
+    border: none;
+    text-decoration: none;
+    background: 0 0;
+    box-shadow: none;
+ }
+
+ #IQ_top_admin_bar .ab-top-menu>.menupop>.ab-sub-wrapper{
+        min-width: 100%;
+ }
+
+ #IQ_top_admin_bar .menupop .ab-sub-wrapper, #IQ_top_admin_bar .shortlink-input{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    background: #2c3338;
+    display:none;
+    position:absolute;
+    float:none;
+ }
+
+ #IQ_top_admin_bar ul li:last-child, #IQ_top_admin_bar ul li:last-child .ab-item{
+        box-shadow: none;
+ }
+
+ #IQ_top_admin_bar .quicklinks>ul>li>a{
+        padding: 0 8px 0 7px;
+ }
+
+ #IQ_top_admin_bar .ab-icon, #IQ_top_admin_bar .ab-item:before, #IQ_top_admin_bar>#wp-toolbar>#IQ-admin-bar-root-default .ab-icon, .IQ-admin-bar-arrow{
+    position: relative;
+    float: left;
+    font: normal 20px/1 dashicons;
+    speak: never;
+    padding: 4px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: none!important;
+    margin-right: 6px;
+ }
+
+ #IQ_top_admin_bar .ab-top-secondary{
+        float: right;
+ }
+
+ #IQ_top_admin_bar .quicklinks .ab-top-secondary>li{
+    float: right;
+ }
+
+ #IQ_top_admin_bar #IQ-admin-bar-my-account.with-avatar>.ab-empty-item img, #IQ_top_admin_bar #IQ-admin-bar-my-account.with-avatar>a img{
+    width: auto;
+    height: 16px;
+    padding: 0;
+    border: 1px solid #8c8f94;
+    background:#f0f0f1;
+    line-height:1.84615384;
+    vertical-align:middle;
+    margin:-4px 0 0 6px;
+    float:none;
+    display:inline;
+ }
+
+ #IQ_top_admin_bar li.hover>.ab-sub-wrapper, #IQ_top_admin_bar.nojs li:hover>.ab-sub-wrapper{
+    display: block;
+ }
+
+ #IQ_top_admin_bar .quicklinks .menupop ul li .ab-item, #IQ_top_admin_bar .quicklinks .menupop ul li a strong, #IQ_top_admin_bar .quicklinks .menupop.hover ul li .ab-item, #IQ_top_admin_bar .shortlink-input, #IQ_top_admin_bar.nojs .quicklinks .menupop:hover ul li .ab-item{
+    line-height: 2;
+    height: 26px;
+    white-space: nowrap;
+    min-width: 140px;
+ }
+
+ #IQ_top_admin_bar .ab-submenu{
+    padding: 6px;
+ }
+
+ #IQ_top_admin_bar .quicklinks .menupop ul li{
+    float: none;
+ }
+
+ #IQ_top_admin_bar .quicklinks .menupop ul li a, #IQ_top_admin_bar .quicklinks .menupop ul li a strong, #IQ_top_admin_bar .quicklinks .menupop.hover ul li a, #IQ_top_admin_bar.nojs .quicklinks .menupop:hover ul li a{
+    color: rgba(240,246,252,.7);
+ }
+
+ #IQ_top_admin_bar .quicklinks .ab-sub-wrapper .menupop.hover>a, #IQ_top_admin_bar .quicklinks .menupop ul li a:focus, #IQ_top_admin_bar .quicklinks .menupop ul li a:focus strong, #IQ_top_admin_bar .quicklinks .menupop ul li a:hover, #IQ_top_admin_bar .quicklinks .menupop ul li a:hover strong, #IQ_top_admin_bar .quicklinks .menupop.hover ul li a:focus, #IQ_top_admin_bar .quicklinks .menupop.hover ul li a:hover, #IQ_top_admin_bar .quicklinks .menupop.hover ul li div[tabindex]:focus, #IQ_top_admin_bar .quicklinks .menupop.hover ul li div[tabindex]:hover, #IQ_top_admin_bar li #adminbarsearch.adminbar-focused:before, #IQ_top_admin_bar li .ab-item:focus .ab-icon:before, #IQ_top_admin_bar li .ab-item:focus:before, #IQ_top_admin_bar li a:focus .ab-icon:before, #wpadmIQ_top_admin_barinbar li.hover .ab-icon:before, #IQ_top_admin_bar li.hover .ab-item:before, #IQadminbar li:hover #adminbarsearch:before, #IQadminbar li:hover .ab-icon:before, #IQ_top_admin_bar li:hover .ab-item:before, #IQadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #IQ_top_admin_bar.nojs .quicklinks .menupop:hover ul li a:hover{
+    color: #72aee6;
+ }
+
+
+
+ #IQ_top_admin_bar .ab-top-secondary .menupop .ab-sub-wrapper{
+    right: 0;
+    left: auto;
+}
+
+/* user avatar */
+#IQ_top_admin_bar #IQ-admin-bar-user-actions.ab-submenu{
+    padding: 6px 0 12px;
+ }
+
+#IQ_top_admin_bar #IQ-admin-bar-my-account.with-avatar #IQ-admin-bar-user-actions>li{
+    margin-left: 88px;
+}
+
+#IQ_top_admin_bar #IQ-admin-bar-user-actions>li{
+    margin-left: 16px;
+}
+
+#IQ_top_admin_bar #IQ-admin-bar-user-info{
+    margin-top: 6px;
+    margin-bottom: 15px;
+    height: auto;
+    background: 0 0;
+}
+
+
+
+#IQ-admin-bar-user-info .avatar{
+    position: absolute;
+    left: -72px;
+    top: 4px;
+    width: 64px;
+    height: 64px;
+}
+
+#IQ_top_admin_bar #IQ-admin-bar-user-actions>li{
+        margin-right: 16px;
+}
+
+#IQ_top_admin_bar #IQ-admin-bar-user-info .username{
+    color: #a7aaad;
+    font-size:11px;
+}
+
+#IQ_top_admin_bar #IQ-admin-bar-user-info .display-name, #IQ_top_admin_bar #IQ-admin-bar-user-info .username{
+    display: block;
+}
+
+#IQ_top_admin_bar #IQ-admin-bar-my-account .display-name{
+    color: white;
+}
+
+
+
+#IQ_top_admin_bar #IQ-admin-bar-user-info span{
+    background: 0 0;
+    padding: 0;
+    height: 18px;
+}
+
+
+/* connection checker */
+.IQ_connection_checker{
+        right: 0;
+        display: flex;
+        justify-content: flex-start;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        
+}
+
+.IQ_connection_checker ul{
+    flex-direction: column;
+    list-style: none;
+    max-width: 100%;
+
+}
+
+.IQ_connection_checker ul li{
+    border-radius: 10px;
+        padding: 16px;
+        transform: scale(1);
+        opacity: 1;
+        max-width: 328px;
+        transition-property: transform,opacity;
+}
+
+.IQ_connection_checker ul li{
+    background-color: #242526;
+    color: white;
+    padding: 16px;
+    transform: scale(1);
+    opacity: 1;
+    max-width: 328px;
+    transition-property: transform,opacity;
+}
+
+.IQ_connection_checker ul li .IQ_connection_inner{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 0;
+
+}
+
+
+
+.IQ_connection_checker ul li .IQ_connection_inner .IQ_connection_icon i{
+    font-size: 25px;
+    color: white;
+    padding-right: 10px;
+    
+}
+
+.IQ_connection_checker ul li .IQ_connection_inner span{
+    color: white;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    line-height: 1.3333;
+    font-size: .9375rem;
+    cursor: pointer;
+
+}
+
+.IQ_connection_checker ul li .IQ_connection_inner .IQ_connection_close_btn{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.IQ_connection_checker ul li .IQ_connection_inner .IQ_connection_close_btn .IQ_connection_close_btn_inner{
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    outline: none;
+    border: 0;
+    list-style: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    
+
+ }
+
+ .IQ_connection_checker ul li .IQ_connection_inner .IQ_connection_close_btn .IQ_connection_close_btn_inner i{
+background-position: -13px -164px;
+background-repeat: no-repeat no-repeat;
+-webkit-filter: invert(89%) sepia(6%) hue-rotate(185deg);
+ }
+
+ .IQ_connection_checker ul li .IQ_connection_inner .IQ_connection_close_btn .IQ_connection_close_btn_inner:hover{
+        background-color: white;
+
+}
