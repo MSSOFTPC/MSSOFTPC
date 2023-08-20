@@ -1,1 +1,45 @@
-Hello
+Installation Guide
+IQRA is an incredibly powerful and versatile content management system that can be used to create any kind of website. In order to make the most out of this platform, it is important to have a clear understanding of how to go about setting up and configuring IQRA. This installation guide will provide you with the necessary steps for getting started with IQRA. It will cover topics such as downloading and installing IQRA, setting up a database, and configuring themes and addons. With these instructions in hand, you will be able to quickly get up and running with IQRA!
+ 
+IQRA Server Requirements
+Server requirements involve several elements: RAM, database version, processing power, disk space, and the web server used.
+Here’s a quick look into the standard recommendations for a server when running IQRA:
+Web server: Nginx or Apache with mod-rewrite module
+Disk space: At least 1 GB
+PHP: Version 8.1 or higher
+Database: MySQL 5.015 or higher (An alternative is MariaDB, version 10.1 or higher)
+RAM (Random Access Memory): At least 512 MB
+CPU (Central Processing Unit): At least 1.0 GHz
+Support for HTTPS
+ 
+PHP Extension Required
+zip
+ 
+How to Setup
+Here’s the quick version of the instructions for those who are already comfortable with performing such installations. 
+Download and unzip the IQRA package from here.
+Create a database for IQRA on your web server, as well as a MySQL (or MariaDB) user who has all privileges for accessing and modifying it.
+Upload the IQRA files to the desired location on your web server:
+If you want to integrate IQRA into the root of your domain (e.g. http://example.com/), move or upload all contents of the unzipped IQRA directory into the root directory of your web server.
+copy database name, database username  and database password and paste on config.php files.
+Now upload database and change url from site_options to site url (https://demo.com).
+Now Create user for login from mysqli database enter name, username, email, and password (md5) and save it.
+Now Run the IQRA installation script by accessing the URL in a web browser.
+Now go to domainurl/admin (https://demo.com/admin). and Login with email and password. 
+That’s it! IQRA should now be installed.
+ 
+How to Setup Home Page
+Follow steps for visible home page.
+ Go to Page Section and create a new Page.
+Now go to Settings and tap on General Settings then click on Select Front Page and Select Home page and save.
+Note Always check Mainitenance Mode is Disable
+ 
+How to Setup SMTP
+Follow steps for Setup SMTP.
+ Go to Settings  and click on SMTP.
+Now Enter Host, Port,username and password and Save.
+
+Supports
+ https://iqra.mssoftpc.com
+
+Enjoy!
